@@ -32,7 +32,7 @@ export class ChannellistComponent implements OnInit {
       console.log(this.channels);
     });
   }
-
+ // Sort the list by date
   sortChannels() {
     this.channels.sort(function (channel1, channel2) {
       if (channel1.time < channel2.time) {
