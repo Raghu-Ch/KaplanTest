@@ -5,10 +5,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Clone Repo
 
 Perform the clone-to-launch steps with these terminal commands.
-git clone https://github.com/Raghu-Ch/KaplanTest.git
-cd KaplanTest
-npm install
-npm start
+### git clone https://github.com/Raghu-Ch/KaplanTest.git
+### cd KaplanTest
+### npm install
+### npm start
 
 ## Development server
 
