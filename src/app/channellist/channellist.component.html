@@ -1,0 +1,20 @@
+<div class="container container-table">
+  <div *ngFor="let channel of channels;let index = index">
+    <div [class.separator]="channel?.sectionLast">
+      <div *ngIf="channel?.sectionFirst" class="dateHeader">{{channel.time | date: 'EE, MMMM d, y'}}</div>
+      <div class="channelSection row vertical-center-row">
+        <div class="col-md-6">
+          <img [src]="channel.subjectPhotoUrl">
+          <h3>{{channel.title}}</h3>
+          <div class="description">{{channel.description}}</div>
+        </div>
+        <div class="col-md-3">
+          <img [src]="channel.instructorPhotoUrl">
+          <h3 class="title">{{channel.instructorName}}</h3>
+        </div>
+        <div class="col-md-3 datetime">{{channel.time}}</div>
+        <hr *ngIf="!channel?.sectionLast">
+      </div>
+    </div>
+  </div>
+</div>

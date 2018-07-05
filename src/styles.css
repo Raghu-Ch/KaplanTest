@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+  background-color: #ededed !important;
+  font-family: Arial;
+}
+
+html,
+body,
+.container-table {
+  height: 100%;
+}
+
+.container-table {
+  display: table;
+}
+
+.vertical-center-row {
+  display: table-cell;
+  vertical-align: middle;
+}
